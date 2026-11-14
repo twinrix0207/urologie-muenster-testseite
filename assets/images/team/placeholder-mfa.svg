@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EDF7FA"/>
+      <stop offset="100%" stop-color="#DCF1F6"/>
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f73b7"/>
+      <stop offset="100%" stop-color="#38C6D9"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bgGrad)"/>
+  <circle cx="150" cy="115" r="46" fill="url(#iconGrad)" opacity="0.85"/>
+  <path d="M70 265 C70 205, 105 180, 150 180 C195 180, 230 205, 230 265 Z" fill="url(#iconGrad)" opacity="0.85"/>
+  <!-- Stethoskop / Medizinischer V-Ausschnitt Akzent -->
+  <path d="M130 182 L150 218 L170 182" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+</svg>
