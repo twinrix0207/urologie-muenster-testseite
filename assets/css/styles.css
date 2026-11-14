@@ -767,6 +767,45 @@ ul {
   margin-bottom: 16px;
 }
 
+/* Symptom- & Anlass-Kompass (Für Patienten & KI-Suchen) */
+.symptom-compass {
+  margin-top: 32px;
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-left: 5px solid var(--accent-cyan);
+  border-radius: var(--radius-md);
+  padding: 24px 28px;
+  box-shadow: var(--shadow-sm);
+}
+
+.symptom-compass h3 {
+  font-size: 1.12rem;
+  color: var(--primary-navy);
+  margin-bottom: 8px;
+}
+
+.symptom-compass p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+.symptom-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.symptom-tag {
+  background: var(--bg-ice);
+  border: 1px solid rgba(21, 82, 143, 0.14);
+  color: var(--primary-navy);
+  font-size: 0.81rem;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+}
+
 /* ==========================================================================
    Unsere Leistungen (Cards Grid)
    ========================================================================== */
