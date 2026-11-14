@@ -1055,29 +1055,18 @@ ul {
   border-radius: var(--radius-full);
 }
 
-/* Praxismanagement (Direkt unter den 3 Ärzten zentriert) */
-.management-wrap {
-  max-width: 390px;
-  margin: 0 auto 48px;
+/* MFA Grid & Auszubildende Grid (Alle Karten exakt gleich groß) */
+.mfa-top-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.management-card {
-  background: #fff;
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  box-shadow: var(--shadow-sm);
-  border: 1px solid var(--border-color);
-  transition: var(--transition);
-  text-align: center;
+.mfa-top-row .mfa-card {
+  width: 100%;
+  max-width: calc(50% - 10px);
 }
 
-.management-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
-  border-color: var(--accent-cyan);
-}
-
-/* MFA Grid & Auszubildende Grid */
 .mfa-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1810,6 +1799,10 @@ ul {
   .contact-quick-btns,
   .form-row-2col {
     grid-template-columns: 1fr;
+  }
+
+  .mfa-top-row .mfa-card {
+    max-width: 100%;
   }
 
   .hours-row {
